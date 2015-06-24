@@ -14,7 +14,7 @@ composer update
 ## Authentication
 Open up the config/app.php file and replace the AuthServiceProvider with:
 ```
-Illuminate\Auth\AuthServiceProvider::class -> Kbwebs\MultiAuth\AuthServiceProvider::class
+Illuminate\Auth\AuthServiceProvider::class => Kbwebs\MultiAuth\AuthServiceProvider::class
 ```
 And open config/auth.php file and remove:
 ```PHP
